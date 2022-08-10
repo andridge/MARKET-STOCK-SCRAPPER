@@ -1,0 +1,31 @@
+{
+  "name": "luz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cron": "^2.0.0",
+    "date-and-time": "^2.3.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^3.2.6",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.16",
+    "puppeteer": "^14.3.0",
+    "purge": "^1.0.0",
+    "sequelize": "^6.21.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
